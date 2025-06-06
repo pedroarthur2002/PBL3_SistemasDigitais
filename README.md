@@ -1,4 +1,4 @@
-# Detector de Borda implementado na FPGA com C
+# Implementação de um Detector de Bordas em FPGA com Suporte via Software em C
 
 ## Sumário
 
