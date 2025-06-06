@@ -157,21 +157,15 @@ make all
 make run
 ```
 
-Ou alternativamente:
-
-```bash
-./main
-```
-
 ## Uso do Sistema
 
-1. **Prepare a Imagem**
+1. **Prepare a Imagem**:
    Coloque um arquivo chamado `imagem.png` no diretório do programa.
 
-2. **Execute**
+2. **Execute**:
    O sistema carregará automaticamente a imagem e a converterá para escala de cinza.
 
-3. **Escolha o Filtro**
+3. **Escolha o Filtro**:
    Use o menu interativo para selecionar o tipo de filtro desejado:
 
    | Opção | Filtro         |
@@ -183,7 +177,7 @@ Ou alternativamente:
    | 5     | Laplaciano 5x5 |
    | 6     | Sair           |
 
-4. **Visualize os Resultados**
+4. **Visualize os Resultados**: 
    As imagens processadas serão salvas automaticamente com nomes descritivos.
 
 ---
