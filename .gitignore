@@ -1,0 +1,120 @@
+# ========== ARQUIVOS QUARTUS  ==========
+
+# Arquivos de compilação e síntese
+*.sof
+*.pof
+*.jic
+*.rbf
+*.ttf
+*.summary
+*.smsg
+*.done
+*.pin
+*.flow.rpt
+*.map.rpt
+*.fit.rpt
+*.asm.rpt
+*.sta.rpt
+*.eda.rpt
+*.drc.rpt
+
+# Arquivos de simulação
+*.vcd
+*.wlf
+*.vstf
+work/
+modelsim.ini
+
+# Diretórios de output
+output_files/
+incremental_db/
+db/
+
+# Arquivos de configuração específicos da máquina
+*.qws
+*.bak
+*.orig
+*~
+*.tmp
+
+# Arquivos de timing
+*.sdc.bak
+
+# Arquivos de IP e megafunctions gerados (exceto os essenciais)
+*_syn.v
+*_generation_script.tcl
+
+# Arquivos HPS gerados automaticamente
+hps_*.h
+hps_*_info.xml
+hps_*_pins.txt
+hps_*_summary.csv
+
+# Arquivos de assignment defaults
+*_assignment_defaults.qdf
+
+# Arquivos de teste
+simulation/
+transcript
+
+# Logs
+*.log
+*.rpt
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos específicos do Quartus Prime
+*.qar
+*.qarlog
+
+# Arquivos Qsys/Platform Designer gerados
+*.sopcinfo
+
+# Cache do compilador
+*.cache/
+
+# ========== ARQUIVOS C ==========
+# Arquivos compilados
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+main
+
+# Arquivos de debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Arquivos de saída/resultados de processamento
+*_output.png
+*_output.jpg
+*_output.*
+*_cinza.png
+*_grayscale.*
+
+# Arquivos temporários do compilador
+*.tmp
+*.swp
+*~
+.#*
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs e dumps
+*.log
+core
+vgcore.*
+
+# Arquivos de teste
+test_*
+debug_*
