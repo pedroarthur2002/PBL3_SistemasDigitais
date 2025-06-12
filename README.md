@@ -104,6 +104,59 @@ O sistema suporta cinco tipos diferentes de filtros de detecção de bordas:
 
 > Todos os filtros bidirecionais calculam a magnitude euclidiana dos gradientes horizontal e vertical, enquanto o Laplaciano trabalha com uma única direção.
 
+### Resultados Visuais
+
+Esta seção apresenta exemplos visuais da aplicação de cada filtro implementado, demonstrando as características específicas de cada método de detecção de bordas.
+
+#### Imagem Original
+
+<div align="center">
+  <img src="./Software/images/Lena/imagem.png" alt="Imagem Original" width="250">
+  <p><em>Imagem de entrada original</em></p>
+</div>
+
+#### Imagem em Escala de Cinza
+
+<div align="center">
+  <img src="./Software/images/Lena/imagem_cinza.png" alt="Imagem em Escala de Cinza" width="250">
+  <p><em>Imagem em Escala de Cinza</em></p>
+</div>
+
+#### Filtro Sobel 3x3
+
+<div align="center">
+  <img src="./Software/images/Lena/sobel_3x3_output.png" alt="Filtro Sobel 3x3" width="250">
+  <p><em>Imagem com Filtro Sobel 3x3</em></p>
+</div>
+
+#### Filtro Sobel 5x5
+
+<div align="center">
+  <img src="./Software/images/Lena/sobel_5x5_output.png" alt="Filtro Sobel 5x5" width="250">
+  <p><em>Imagem com Filtro Sobel 5x5</em></p>
+</div>
+
+#### Filtro Prewitt 3x3
+
+<div align="center">
+  <img src="./Software/images/Lena/prewitt_3x3_output.png" alt="Filtro Prewitt 3x3" width="250">
+  <p><em>Imagem com Filtro Prewitt 3x3</em></p>
+</div>
+
+#### Filtro Roberts 2x2
+
+<div align="center">
+  <img src="./Software/images/Lena/roberts_2x2_output.png" alt="Filtro Roberts 2x2" width="250">
+  <p><em>Imagem com Filtro Roberts 2x2</em></p>
+</div>
+
+#### Filtro Laplaciano 5x5
+
+<div align="center">
+  <img src="./Software/images/Lena/laplaciano_5x5_output.png" alt="Filtro Laplaciano 5x5" width="250">
+  <p><em>Imagem com Filtro Laplaciano 5x5</em></p>
+</div>
+
 ## Características Técnicas
 
 ### Processamento de Imagens
