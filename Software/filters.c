@@ -1,4 +1,4 @@
-#include "include/interface.h" 
+#include "interface.h" 
 /* ========== DEFINIÇÕES DOS KERNELS DOS FILTROS ========== */
 
 // SOBEL 3x3 - Gradiente X
