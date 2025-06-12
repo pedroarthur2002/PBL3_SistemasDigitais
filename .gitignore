@@ -92,12 +92,6 @@ main
 *.idb
 *.pdb
 
-# Arquivos de saída/resultados de processamento
-*_output.png
-*_output.jpg
-*_output.*
-*_cinza.png
-*_grayscale.*
 
 # Arquivos temporários do compilador
 *.tmp
